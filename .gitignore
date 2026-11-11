@@ -1,0 +1,41 @@
+# Binary
+/pulumi-backend
+
+# SQLite database files
+*.db
+*.db-shm
+*.db-wal
+*.db-journal
+
+# Reference upstream source
+reference/
+
+# Test artifacts
+*.test
+pulumi-spec.json
+
+# Debug logs
+*.log
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# GCP credentials / OAuth client secrets
+client_secret_*.json
+*-service-account*.json
+*-credentials.json
+application_default_credentials.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Benchmarks
+benchmarks/results/
+
+# Go
+vendor/
